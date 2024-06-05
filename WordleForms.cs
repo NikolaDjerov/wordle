@@ -32,7 +32,6 @@ namespace Wordle
         }
         private void FocusTextBox(object sender, MouseEventArgs e)
         {
-
             if (sender is TextBox textBox)
             {
                 textBox.Focus();
