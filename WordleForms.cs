@@ -10,7 +10,7 @@ namespace Wordle
 {
     public partial class WordleForms : Form
     {
-        private const string WordsTextFile = @"C:\Users\nikol\Documents\GitHub\wordle\wordle\wordsForWordle.txt";
+        private const string WordsTextFile = @"wordsForWordle.txt";
         private const int RowLength = 5;
         private const string PlayAgainMessage = "Play again?";
         private int previousRow = 0;
